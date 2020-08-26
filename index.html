@@ -4,11 +4,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv='cache-control' content='no-cache'>
+  <meta http-equiv='expires' content='0'>
+  <meta http-equiv='pragma' content='no-cache'>
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" media="screen and (max-width: 375px)" href="mobile.css">
+  <link rel="stylesheet" media="screen and (min-width: 280px)" href="mobile.css">
   <link rel="stylesheet" media="screen and (min-width: 1440px)" href="desktop.css">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Article preview component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -53,27 +57,43 @@
           to help you make any room feel complete.
         </p>
       </div>
+    </section>
 
-      <div id="compartir">
-        <div id="div-michelle">
-          <img id="michelle" src="images/avatar-michelle.jpg" alt="">
-        </div>
+    <section id="compartir">
+      <div id="div-michelle">
+        <img id="michelle" src="images/avatar-michelle.jpg" alt="">
+      </div>
 
-        <div id="datos">
-          <p>
-            Michelle Appleton
-          </p>
+      <div id="datos">
+        <p>
+          Michelle Appleton
+        </p>
           
-          <p>
-            28 Jun 2020
-          </p>
-        </div>
+        <p id="fecha">
+          28 Jun 2020
+        </p>
+      </div>
+        
+      <div id="icon-share">
+        <img src="images/icon-share.svg" alt="">
+      </div>
+    </section>
 
-        <div id="share">
-          <p> 
-            Share
-          </p>
-        </div>
+    <section id="share">
+      <div id="share-texto">
+        <p> 
+          Share
+        </p>
+      </div>
+
+      <div id="iconos">
+        <img src="images/icon-facebook.svg" alt="">
+        <img src="images/icon-twitter.svg" alt="">
+        <img src="images/icon-pinterest.svg" alt="">
+      </div>
+      
+      <div id="flecha">
+        <img src="images/icon-share.svg" alt="">
       </div>
     </section>
   </main>

@@ -1,6 +1,6 @@
 body{
-    height: 100vh;
-    width: 100wh;
+    height: 812px;
+    width: 100vw;
     background-color: hsl(210, 46%, 95%);
     padding-top: 20%;
     padding-right: 7%;
@@ -12,11 +12,25 @@ main{
     width: 100%;
     height: 100%;
     background-color: white;
-    border-radius: 0.5em 0.5em 0em 0em;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
 }
 
 section{
     display: block;
+}
+
+h2{
+    font-family: 'Manrope', sans-serif;
+    color: hsl(217, 19%, 35%);
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+#texto p{
+    font-family: 'Manrope', sans-serif;
+    color: hsl(214, 17%, 51%);
+    font-size: 0.88em;
+    font-weight: 500;
 }
 
 #drawers{
@@ -27,12 +41,12 @@ section{
 
 #sec-text{
     width: 100%;
-    height: 60%;
+    height: 50%;
     padding: 2.5em 1.7em 1.7em 1em;
 }
 
 #encabezado{
-    height: 30%;
+    height: 40%;
 }
 
 #texto{
@@ -42,29 +56,101 @@ section{
 #compartir{
     height: 20%;
     display: block;
+    display: none;
 }
 
 #div-michelle{
-    width: 15%;
+    width: 23%;
     height: 100%;
+    display: inline-block;
 }
 
 #michelle{
     width: 100%;
-    height: 65%;
+    height: 100%;
     border-radius: 50% 50% 50% 50%;
     float: left;
 }
 
 #datos{
-    width: 70%;
+    width: 50%;
     height: 100%;
-    float: left;
+    display: inline-block;
+    font-family: 'Manrope', sans-serif;
+    color: hsl(217, 19%, 35%);
+    font-size: 0.88em;
+    font-weight: 700;
+    vertical-align: text-bottom;
+}
+
+#datos p{
+    margin-left: 0.6em;
+}
+
+#fecha{
+    color: hsl(212, 23%, 69%);
+    font-size: 0.88em;
+    font-weight: 500;
 }
 
 #share{
-    width: 15%;
+    width: 100%;
+    height: 12.9%;
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 0em 0em 0.5em 0.5em;
+    color: hsl(214, 17%, 51%);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+#icon-share{
+    width: 20%;
     height: 100%;
     float: right;
 }
+
+#icon-share img{
+    float: right;
+    margin-top: 0.5em;
+}
+
+#share-texto{
+    height: 100%;
+    width: 25%;
+    float: left;
+}
+
+#iconos{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+#flecha{
+    height: 100%;
+    width: 25%;
+    float: right;
+}
+
+#share img{
+    margin: 2em 0.5em auto;
+    display: inline-block;
+}
+
+#share-texto p{
+    display: inline-block;
+    margin: 2em 0.5em auto;
+    letter-spacing: 0.5em;
+}
+
+#flecha img{
+    margin-left: 2em;
+    background-color: white;
+    padding: 0.5em;
+    border-radius: 50% 50% 50% 50%;
+    fill: black;
+}
+
+
 
