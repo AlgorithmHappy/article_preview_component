@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1440px;
+    height: 93.8vh;
+    background-color: hsl(212, 23%, 69%);
+    margin: 1px auto 1px auto;
+    padding: 0px;
+    padding-top: 315px;
+}
+
+main{
+    width: 60%;
+    height: 46.4%;
+    margin: auto auto auto auto;
+    border-radius: 2em;
+    background-color: hsl(210, 46%, 95%);
+}
+
+section{
+    display: inline-block;
+}
+
+#sec-imagen{
+    width: 40%;
+    height: 100%;
+    border-radius: 2em 0em 0em 2em;
+    float: left;
+}
+
+#drawers{
+    width: 100%;
+    height: auto;
+    border-radius: 2em 0em 0em 2em;
+    float: left;
+}
+
+#sec-text{
+    display: inline-block;
+    width: 59.1%;
+    padding: 40px 40px 40px 40px;
+    height: auto;
+    clear: both;
+}
+
+#encabezado{
+    height: auto;
+}
+
+#texto{
+    height: auto;
+    margin-top: 1em;
+}
+
+#compartir{
+    display: inline-block;
+    height: auto;
+    width: 59.1%;
+    padding: 0px 40px 40px 40px;
+}
+
+#div-michelle{
+    margin: 0px;
+}
+
+#datos{
+    margin-top: 5px;
+}
+
+#icon-share{
+    margin-top: 10px;
+}
+
+#icon-share img{
+    background-color: hsl(210, 46%, 95%);
+    filter: invert(20%);
+    
+}
+
+#michelle{
+    width: 60px;
+}
+
+#share{
+    width: 250px;
+    height: 50px;
+    background-color: hsl(217, 19%, 35%);
+    border-radius:0.5em 0.5em 0.5em 0.5em;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    top: -150px;
+    left: 660px;
+    box-shadow: 0px 10px 50px 2px hsla(217, 19%, 35%, 0.5);
+    display: none;
+}
+
+#share::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 15px solid hsl(217, 19%, 35%);
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    position: absolute;
+    left: 115px;
+    top: 50px;
+}
+
+#share-texto{
+    height: 100%;
+    width: 45%;
+    display: inline-block;
+}
+
+#iconos{
+    height: 50px;
+    width: 50%;
+    float: right;
+    margin-bottom: 50px;
+}
+
+#flecha{
+    display: none;
+}
+
+#share img{
+    margin: 15px 5px 0px 5px;
+    display: inline-block;
+}
+
+#share-texto p{
+    display: inline-block;
+    margin: 15px 5px 0px 5px;
+    letter-spacing: 0.5em;
+}
+
+#flecha img{
+    margin-left: 2em;
+    background-color: white;
+    padding: 0.5em;
+    border-radius: 50% 50% 50% 50%;
+}
+
+.attribution{
+    display: none;
+}

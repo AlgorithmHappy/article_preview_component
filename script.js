@@ -15,17 +15,28 @@ function eventos(e){
 }
 
 function sePresiono(e){
-    let share = document.getElementById('share');
-    let style = window.getComputedStyle(share);
-    let display = style.getPropertyValue('display');
-    if(display == 'none'){
-        share.style.display = 'block';
-        let compartir = document.getElementById('compartir');
-        compartir.style.display = 'none';
+    if(document.documentElement.clientWidth <= 1440){ // Si se esta utilizando en telefono
+        let share = document.getElementById('share');
+        let style = window.getComputedStyle(share);
+        let display = style.getPropertyValue('display');
+        if(display == 'none'){
+            share.style.display = 'block';
+            let compartir = document.getElementById('compartir');
+            compartir.style.display = 'none';
+        } else {
+            share.style.display = 'none';
+            let compartir = document.getElementById('compartir');
+            compartir.style.display = 'block';
+        }
     } else {
-        share.style.display = 'none';
-        let compartir = document.getElementById('compartir');
-        compartir.style.display = 'block';
+        let share = document.getElementById('share');
+        let style = window.getComputedStyle(share);
+        let display = style.getPropertyValue('display');
+        if(display == 'none'){
+            share.style.display = 'inline-block';
+        } else {
+            share.style.display = 'none';
+        }
     }
 }
 
